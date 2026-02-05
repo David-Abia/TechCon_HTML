@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Contact Information -->
+    <section>
+      <h2>Get in Touch</h2>
+      <p>
+        Email us at:
+        <a href="mailto:email@example.com">email@example.com</a>
+      </p>
+
+      <p>Follow us on social media:</p>
+      <ul>
+        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <!-- Embedded Map -->
+    <section>
+      <h2>Conference Location</h2>
+      <iframe
+        src="https://www.google.com/maps?q=San%20Francisco&output=embed"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+      <h2>Contact Us Form</h2>
+      <form action="#" method="post">
+
+        <div>
+          <label for="contact-name">Name:</label>
+          <input type="text" id="contact-name" name="name" required>
+        </div>
+
+        <div>
+          <label for="contact-email">Email:</label>
+          <input type="email" id="contact-email" name="email" required>
+        </div>
+
+        <div>
+          <label for="contact-message">Message:</label>
+          <textarea id="contact-message" name="message" rows="4" required></textarea>
+        </div>
+
+        <div>
+          <button type="submit">Send Message</button>
+        </div>
+
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>copyright &copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
